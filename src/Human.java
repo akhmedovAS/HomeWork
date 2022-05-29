@@ -9,10 +9,11 @@ public class Human {
 
     /**
      * Конструктор класса
-     * @param name Имя
+     *
+     * @param name       Имя
      * @param secondName Фамилия
-     * @param lastName Отчество
-     * @param age Возраст
+     * @param lastName   Отчество
+     * @param age        Возраст
      */
     Human(String name, String secondName, String lastName, int age) {
         this.name = name;
@@ -31,6 +32,7 @@ public class Human {
 
     /**
      * Метод для информативного вывода информации об объекте
+     *
      * @return вернуть информацию об объекте
      */
     public String toString() {
@@ -38,7 +40,6 @@ public class Human {
     }
 
     /**
-     *
      * Установить имя
      */
     void setName(String name) {
@@ -46,7 +47,6 @@ public class Human {
     }
 
     /**
-     *
      * Вернуть имя
      */
     String getName() {
@@ -54,7 +54,6 @@ public class Human {
     }
 
     /**
-     *
      * Установить фамилию
      */
     void setSecondName(String secondName) {
@@ -62,7 +61,6 @@ public class Human {
     }
 
     /**
-     *
      * Получить Фамилию
      */
     String getSecondName() {
@@ -70,7 +68,6 @@ public class Human {
     }
 
     /**
-     *
      * Установить Отчество
      */
     void setLastName(String lastName) {
@@ -78,7 +75,6 @@ public class Human {
     }
 
     /**
-     *
      * Получить Отчество
      */
     String getLastName() {
@@ -86,7 +82,6 @@ public class Human {
     }
 
     /**
-     *
      * Установить возраст
      */
     void setAge(int age) {
@@ -94,7 +89,6 @@ public class Human {
     }
 
     /**
-     *
      * Получить возраст
      */
     int getAge() {

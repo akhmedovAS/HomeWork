@@ -3,7 +3,6 @@ public class MainHuman {
 
         Human homoSapiens = new Human("Петя", "Иванов", "Петявич", 30);
 
-
     }
 
 }

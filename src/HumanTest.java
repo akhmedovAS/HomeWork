@@ -13,7 +13,7 @@ public class HumanTest {
     @Test
     public void getName() {
         Human human = new Human("Петя", "Иванов", "Петявич", 30);
-        assertEquals("Петя",human.getName());
+        assertEquals("Петя", human.getName());
 
     }
 
@@ -26,7 +26,7 @@ public class HumanTest {
     @Test
     public void getSecondName() {
         Human human = new Human("Петя", "Иванов", "Петявич", 30);
-        assertEquals("Иванов",human.getSecondName());
+        assertEquals("Иванов", human.getSecondName());
     }
 
     @Test
@@ -38,7 +38,7 @@ public class HumanTest {
     @Test
     public void getLastName() {
         Human human = new Human("Петя", "Иванов", "Петявич", 30);
-        assertEquals("Петяевич",human.getLastName());
+        assertEquals("Петяевич", human.getLastName());
     }
 
     @Test
@@ -50,6 +50,6 @@ public class HumanTest {
     @Test
     public void getAge() {
         Human human = new Human("Петя", "Иванов", "Петявич", 30);
-        assertEquals(30,human.getAge());
+        assertEquals(30, human.getAge());
     }
 }
