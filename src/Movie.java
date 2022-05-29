@@ -7,9 +7,8 @@ public class Movie {
     double duration;
 
     /**
-     *
      * @param director Имя режиссера
-     * @param title Название фильма
+     * @param title    Название фильма
      * @param duration Длительность фильма
      */
     Movie(String director, String title, double duration) {
@@ -19,7 +18,6 @@ public class Movie {
     }
 
     /**
-     *
      * @param director Установить имя режиссера
      */
 
@@ -28,7 +26,6 @@ public class Movie {
     }
 
     /**
-     *
      * @param title установить название фильма
      */
     public void setTitle(String title) {
@@ -36,7 +33,6 @@ public class Movie {
     }
 
     /**
-     *
      * @param duration установить длительность фильма
      */
     public void setDuration(double duration) {
@@ -44,7 +40,6 @@ public class Movie {
     }
 
     /**
-     *
      * @return получить имя режиссера
      */
     public String getDirector() {
@@ -52,7 +47,6 @@ public class Movie {
     }
 
     /**
-     *
      * @return получить длительность фильма
      */
     public double getDuration() {
@@ -60,7 +54,6 @@ public class Movie {
     }
 
     /**
-     *
      * @return получить название фильма
      */
     public String getTitle() {
