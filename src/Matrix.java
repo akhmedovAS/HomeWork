@@ -5,7 +5,6 @@ public class Matrix {
     int[][] twoDisArray = {{0, 12, 4}, {7, 14, 5}, {3, 8, 9}, {45, 3, 7}};
 
     /**
-     *
      * @return получить матрицу
      */
     public int[][] getTwoDisArray() {
@@ -13,7 +12,6 @@ public class Matrix {
     }
 
     /**
-     *
      * @return получить длину стороны m
      */
     public int getSideMLenght() {
@@ -21,7 +19,6 @@ public class Matrix {
     }
 
     /**
-     *
      * @return получить длину стороны n
      */
     public int getSideNLenght() {
@@ -29,7 +26,6 @@ public class Matrix {
     }
 
     /**
-     *
      * @param indexM координаты по стороне m
      * @param indexN координаты по стороне n
      * @return получить значение индекса
@@ -39,8 +35,7 @@ public class Matrix {
     }
 
     /**
-     *
-     * @param value значение, которое хоти установить в индексе
+     * @param value  значение, которое хоти установить в индексе
      * @param indexM координаты по стороне m
      * @param indexN координаты по стороне n
      */
@@ -49,7 +44,6 @@ public class Matrix {
     }
 
     /**
-     *
      * @param twoDisArr вторая матрица
      * @return новая матрица - результат сложения матриц
      */
@@ -65,7 +59,6 @@ public class Matrix {
     }
 
     /**
-     *
      * @param twoDisArr вторая матрица
      * @return новая матрица - результат умножения матриц
      */
@@ -80,7 +73,6 @@ public class Matrix {
     }
 
     /**
-     *
      * метод, печатающий значения индексов матрицы
      */
     void print(int[][] twoDisArray) {
