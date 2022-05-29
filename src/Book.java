@@ -9,9 +9,10 @@ public class Book {
 
     /**
      * Конструктор класса
-     * @param name Название книги
-     * @param autor Имя писателя
-     * @param pages кол-во страниц
+     *
+     * @param name         Название книги
+     * @param autor        Имя писателя
+     * @param pages        кол-во страниц
      * @param yearOfIssued год выпуска книги
      */
     Book(String name, String autor, int pages, int yearOfIssued) {
@@ -22,7 +23,6 @@ public class Book {
     }
 
     /**
-     *
      * Установить название
      */
     void setName(String name) {
@@ -31,7 +31,6 @@ public class Book {
     }
 
     /**
-     *
      * Получить название
      */
     String getName() {
@@ -39,7 +38,6 @@ public class Book {
     }
 
     /**
-     *
      * Установить имя писателя
      */
     void setAutor(String autor) {
@@ -47,7 +45,6 @@ public class Book {
     }
 
     /**
-     *
      * получить имя писателя
      */
     String getAutor() {
@@ -55,7 +52,6 @@ public class Book {
     }
 
     /**
-     *
      * установить кол-во страниц
      */
     void setPages(int pages) {
@@ -63,7 +59,6 @@ public class Book {
     }
 
     /**
-     *
      * получить кол-во страниц
      */
     int getPages() {
@@ -71,7 +66,6 @@ public class Book {
     }
 
     /**
-     *
      * установить год выпуска
      */
     void setYearOfIssued(int yearOfIssued) {
@@ -80,7 +74,6 @@ public class Book {
     }
 
     /**
-     *
      * Получить год выпуска
      */
     int getYearOfIssued() {
