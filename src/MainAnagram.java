@@ -8,7 +8,7 @@ public class MainAnagram {
 
         Anagram anagram = new Anagram(userWord);
 
-        System.out.println("Анаграмма на слово  - "+anagram.getAnagram(userWord));
+        System.out.println("Анаграмма на слово  - " + anagram.getAnagram(userWord));
 
     }
 }
