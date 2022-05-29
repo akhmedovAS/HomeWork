@@ -7,5 +7,6 @@ public class MainCalculator {
         System.out.println(calculator.multiplication(17, 5));
         System.out.println(calculator.subtraction(10, 1));
 
+
     }
 }
