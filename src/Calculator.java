@@ -6,8 +6,7 @@ public class Calculator {
     int secondNum;
 
     /**
-     *
-     * @param firstNum Первое число
+     * @param firstNum  Первое число
      * @param secondNum Второе число
      * @return Результат сложения
      */
@@ -17,8 +16,7 @@ public class Calculator {
     }
 
     /**
-     *
-     * @param firstNum Первое число
+     * @param firstNum  Первое число
      * @param secondNum Второе число
      * @return Результат вычитания
      */
@@ -29,10 +27,9 @@ public class Calculator {
     }
 
     /**
-     *
-     * @param firstNum Первое число
+     * @param firstNum  Первое число
      * @param secondNum Второе число
-     * @return  Результат умножения
+     * @return Результат умножения
      */
     int multiplication(int firstNum, int secondNum) {
         int sum = firstNum * secondNum;
@@ -40,8 +37,7 @@ public class Calculator {
     }
 
     /**
-     *
-     * @param firstNum Первое число
+     * @param firstNum  Первое число
      * @param secondNum Второе число
      * @return Результат деления
      */
