@@ -1,5 +1,5 @@
 public class BonusForAssistant extends Bonus {
-     final int percentOfBonus = 20;
+     private final int percentOfBonus = 20;
 
      @Override
      public int getBonus() {
